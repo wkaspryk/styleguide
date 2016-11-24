@@ -1,3 +1,21 @@
+
+//ROW
+.row {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+
+    &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+}
+
 //GRID
 [class^="grid"] {
 	position: relative;
