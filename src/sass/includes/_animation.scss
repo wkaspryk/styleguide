@@ -28,6 +28,37 @@
   }
 }
 
+@keyframes expand {
+  0% {
+    width: 16.6vw;
+  }
+
+  100% {
+    width: 26.6vw;
+  }
+}
+
+@keyframes hide {
+  0% {
+    width: 16.6vw;
+  }
+
+  100% {
+    width: 0vw;
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    margin-top: 100vh;
+    opacity: 0;
+  }
+
+  100% {
+    margin-top: 0vh;
+    opacity: 1;
+  }
+}
 
 // Text Animation - 1
 .text-in {
