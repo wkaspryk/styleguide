@@ -1,0 +1,36 @@
+.animated {
+ animation: up 1s cubic-bezier(0.42, 0, 0, 0.995), 
+            fade 0.5s cubic-bezier(0.42, 0, 0, 0.995) forwards;
+}
+
+.delay {
+  animation-delay: 1s;
+}
+
+
+@keyframes up {
+  0% {
+    transform: translateY(100px);
+  }
+  
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}
+
+
+// Text Animation - 1
+.text-in {
+  transform: scaleX(0);
+}
+
