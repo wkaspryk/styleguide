@@ -1,0 +1,41 @@
+.scrolldown{
+  display: flex;
+  margin: auto;
+  position: absolute;
+  top: -60px;
+  left: calc(50% - 27px);
+  .circle {
+    opacity: .05;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    top: 30%;
+    background-color: rgba(0, 0, 0, 0.08);
+    border: rgba(0, 0, 0, 0.08) 5px solid;
+    border-radius: 25px;
+    -webkit-animation-name: circlescale;
+    animation-name: circlescale;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: linear;
+    animation-iteration-count: linear;
+    animation-iteration-count:infinite;
+  }
+  a.arrow {
+      border-right: 0 solid #fff;
+      border-right-width: 2px;
+      border-top: 0 solid #fff;
+      border-top-width: 2px;
+      height: 8px;
+      margin: 13px 17px;
+      position: absolute;
+      transform: rotate(135deg);
+      width: 8px;
+      animation-name: arrow;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-iteration-count: linear;
+      animation-iteration-count: linear;
+      animation-iteration-count:infinite;
+  }
+}
