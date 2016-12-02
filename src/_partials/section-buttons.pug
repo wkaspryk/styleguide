@@ -20,8 +20,17 @@
             h1.section-inner__title Button
             
             .button-container
+
               //- Button component here
-              include button_comp 
+              include button_comp
+                block button-title
+                  h1.button__title button  
+
+                  
+                block button-annotation
+                  .button__annotation-left-text.animated-left 50px
+                  .button__annotation-left-line.animated-scaleY
+                  .button__annotation-right-text.animated-right 3px Radius Corners
 
             p.section-inner__desc 
               | Speciﬁcations for buttons that will be used throughout the site. The font used for CTA buttons is Museo Sans
@@ -34,10 +43,16 @@
             .button-grid-layout
               .button-container
                 //- Button component here
-                include button_comp 
+                include button_comp
+                  block button-desc
+                    .button__desc Fill: #124369
+
               .button-container
                 //- Button component here
-                include button_comp 
+                include button_comp
+                  block button-desc
+                    .button__desc Fill: #1F74B5
+
 
             p.section-inner__desc 
               | Speciﬁcations for buttons that will be used throughout the site. The font used for CTA buttons is Museo Sans
