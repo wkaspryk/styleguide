@@ -85,7 +85,7 @@ $(document).ready(function() {
 	$('.scrolldown').click(function() {
 		$('html, body').animate({
 	      scrollTop: wheight
-	  	}, 1000);	
+	  	}, 500);	
 	});
 
   });
