@@ -1,0 +1,166 @@
+// ===== Section =====
+#section-photography {
+
+	.nav-top {
+		position: fixed;
+		top: 25px;
+		left: 0;
+		z-index: 100;
+		margin-left: 50px;
+	}
+
+	// ===== Section Starts=====
+	.content {
+		width: 100%;
+		height: 100%;
+	}
+
+	.sec {
+
+		// ===== Section - Logo - Header =====
+		&-buttons { 
+			
+			padding-left: 100px;
+			padding-right: 100px;
+		
+		}
+	}
+
+	// ===== Section - Logo - Article =====
+	.section-article {
+
+		section {
+
+			margin-bottom: 80px;
+
+			.section-inner {
+				max-width: 1020px;
+				margin: 0 auto;
+
+				.section-inner__title {
+					text-align: left;
+				}
+
+				.section-inner__desc {
+					text-align: center;
+					width: 60%;
+					margin: auto;
+				}
+			}
+		}
+
+		.-intro {
+
+			// padding: 100px ;
+			background-color: #f1f1f1;
+
+			.intro-text {
+				font-size: 38px;
+				line-height: 1.3em;
+				text-transform: none;
+				letter-spacing: 0px;
+				font-weight: 100;
+				opacity: 0;
+			}
+		}
+
+		.logo-variation {
+			background-color: #f1f1f1; 
+			padding-bottom: 50px;
+
+			.aside-container {
+				height: 400px;
+			}
+		}
+	}
+
+	.logo-grid {
+		padding-top: 0;
+	width: 50%;
+	height: 500px;
+	margin: 0 auto; 
+	}
+
+	.project {
+		width: 100%;
+		height: 100%;
+	}
+
+	.project_card {
+		width: 100%;
+		height: 100%;
+		position: relative;
+
+		.logo-grid-img {
+			background-image: url(../img/logo-grid.png);
+			background-size: cover;
+			background-position: 50%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			}
+		}
+
+	.hover-in{
+		transition: .3s ease-out;
+	}
+	.hover-out{
+		transition: .3s ease-in;
+	}
+
+	.logo-recommend {
+
+		padding: 100px 0;
+
+		.section-inner {
+
+			h1 {
+				font-size: 60px;
+				font-weight: 300;
+				margin-bottom: 60px; 
+		position: relative;
+		display: inline-block;
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: block;
+			background-color: #20548a;
+			transform-origin: right 50%;
+			transition: all 1s cubic-bezier(0.42, 0, 0, 0.995);
+					// transform: scaleX(0);
+		}
+
+				&.show-text:after {
+					transform: scaleX(0);
+				}
+			}
+
+
+
+			h2 {
+				font-size: 26px;
+				padding-bottom: 10px;
+				
+			}
+
+			p {
+				font-size: 18px;
+				padding-bottom: 50px;
+			}
+		}
+
+		.logo-recommend-img {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+		}
+
+	}
+}

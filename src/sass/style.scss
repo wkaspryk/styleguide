@@ -5,9 +5,18 @@
 @import 'includes/_grid.scss';
 @import 'includes/_main.scss';
 @import 'includes/_animation.scss';
-@import 'includes/_logo.scss';
+
 
 @import 'includes/_scrolldown.scss';
-@import 'includes/_buttons.scss';
 
+// ===== Sections Style =====
+@import 'includes/_logo.scss';
+@import 'includes/_colour.scss';
+@import 'includes/_buttons.scss';
+@import 'includes/_typography.scss';
+@import 'includes/_iconography.scss';
+@import 'includes/_photography.scss';
+
+
+// ===== Reuseable Components Style =====
 @import 'includes/button_comp.scss';

@@ -32,3 +32,23 @@ $button__annotation-color: #f255ac;
 @mixin word-wrap-disable() {
 	white-space: nowrap; /* Chrome */
 }
+
+@mixin aside() {
+		> aside {
+		h1 {
+			font-size: 70px;
+			font-weight: bold;
+			padding-right: 20px; 
+			// color: #ebebeb;
+		}
+
+		h2 {
+			font-size: 26px;
+			
+		}
+
+		p {
+			font-size: 18px;
+		}
+	}
+}
