@@ -1,6 +1,8 @@
 .animated {
- animation: up 1s cubic-bezier(0.42, 0, 0, 0.995), 
-            fade 0.5s cubic-bezier(0.42, 0, 0, 0.995) forwards;
+  animation: up 1s cubic-bezier(0.42, 0, 0, 0.995), 
+              fade 0.5s cubic-bezier(0.42, 0, 0, 0.995) forwards;
+  opacity: 0;            
+  
 }
 
 .delay {
@@ -96,3 +98,21 @@
   transform: scaleX(0);
 }
 
+
+// Button example animation
+
+.button__annotation-left-text-appear {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+.button__annotation-right-text-appear {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+.button__annotation-left-line-appear {
+	opacity: 1;
+	transform: scaleY(1);
+	transform-origin: center center;
+}

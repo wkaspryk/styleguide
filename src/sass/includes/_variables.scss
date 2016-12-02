@@ -19,3 +19,16 @@ $phone-portrait:			320px;
 
 $max-width:   	$large-desktop;
 $min-width:    	$phone-portrait;
+
+
+
+
+// Colours
+$button-primary-color: #2da4d2;
+$button__annotation-color: #f255ac;
+
+
+//  Mixins
+@mixin word-wrap-disable() {
+	white-space: nowrap; /* Chrome */
+}
