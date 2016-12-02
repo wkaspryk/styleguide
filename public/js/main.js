@@ -5,6 +5,7 @@ $(document).ready(function() {
     $('.pg-two').css('overflow', 'visible');
 		$('.menu').not(this).toggleClass('non-active');
 		$('.fixed-menu').toggleClass('display');
+		$('.scrolldown').toggleClass('scrolldisplay');
 	  });
 
 	$('#logo').click(function() {
@@ -80,5 +81,11 @@ $(document).ready(function() {
 		$('.menu').not('#photography').toggleClass('non-active');
 	  });
 
+	var wheight = $(window).height();
+	$('.scrolldown').click(function() {
+		$('html, body').animate({
+	      scrollTop: wheight
+	  	}, 1000);	
+	});
 
   });
