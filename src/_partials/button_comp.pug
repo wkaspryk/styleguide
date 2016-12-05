@@ -12,12 +12,22 @@
 //-   block button-annotation
 
 
-.button
-  h1.button__title button 
+//- .button
+//-   h1.button__title button 
   
-  .button_desc_container
-    .button__desc Size: 15px
-    .button__desc Font Weight: 300
+//-   .button_desc_container
+//-     .button__desc Size: 15px
+//-     .button__desc Font Weight: 300
+
+//-   block button-annotation
+
+
+.button
+  block button-title
+    //- h1.button__title button 
+  block button-desc-container
+  //- .button_desc_container
+      //- .button__desc Size: 15px
+      //- .button__desc Font Weight: 300
 
   block button-annotation
-
