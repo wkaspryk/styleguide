@@ -20,6 +20,8 @@
 // });
 
 
+
+// Image 3D Hover Effects
 $(document).ready(function(){
   $(".project").hover3d({
     selector: ".project_card",
@@ -28,4 +30,9 @@ $(document).ready(function(){
   });
 });
 
-	
+
+// is on screen
+
+AOS.init({
+  duration: 3200
+}); 
