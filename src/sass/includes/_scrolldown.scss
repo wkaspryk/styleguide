@@ -1,8 +1,7 @@
 .scrolldown{
-  display: flex;
+  display: none;
   margin: auto;
   position: absolute;
-  bottom: -20px;
   left: calc(50% - 27px);
   opacity: 0;
   z-index:-1; 
@@ -43,8 +42,8 @@
 }
 .scrolldisplay{
   bottom: 20px;
+  display: flex;
   opacity: 1;
   animation: slide-up 1.1s;
-
   z-index:1; 
 }

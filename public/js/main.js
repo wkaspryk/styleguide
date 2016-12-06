@@ -87,5 +87,13 @@ $(document).ready(function() {
 	      scrollTop: wheight
 	  	}, 500);	
 	});
+	
+	$(window).scroll(function(){
+  		if($(window).scrollTop() > $(document).height()*0.12){
+    		$('li').css({'color': '#d6d6d6'})
+  	}else{
+  		$('li').css({'color': '#fff'})
+  		}
+	});
 
   });
