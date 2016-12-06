@@ -28,4 +28,9 @@ $(document).ready(function(){
   });
 });
 
-	
+
+// is on screen
+
+AOS.init({
+  duration: 3200
+}); 
