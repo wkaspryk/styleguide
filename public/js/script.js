@@ -1,14 +1,14 @@
 
-(function() {
+// (function() {
 
-  var logoRecommendTitle = $('.section-inner h1'),
-      logoRecommendTitleOffset = $('.logo-recommend').offset().top*0.8,
-      viewTop = $(document);
+//   var logoRecommendTitle = $('.section-inner h1'),
+//       logoRecommendTitleOffset = $('.logo-recommend').offset().top*0.8,
+//       viewTop = $(document);
 
-  viewTop.on('scroll', function() {
-      if ( viewTop.scrollTop() > logoRecommendTitleOffset) logoRecommendTitle.addClass('show-text');
-  });
- })();
+//   viewTop.on('scroll', function() {
+//       if ( viewTop.scrollTop() > logoRecommendTitleOffset) logoRecommendTitle.addClass('show-text');
+//   });
+//  })();
 
 
 
@@ -25,14 +25,18 @@
 $(document).ready(function(){
   $(".project").hover3d({
     selector: ".project_card",
-    shine: true,
+    sensitivity: 120,
+    shine: false,
+    perspective: 1600,
     // invert: true,
   });
 });
 
 
-// is on screen
-
 AOS.init({
-  duration: 3200
-}); 
+  // offset: 50,
+  duration: 600,
+  easing: 'ease-in',
+  delay: 100, 
+  // anchor-placement: 'top-center'
+});
