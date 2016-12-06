@@ -20,6 +20,8 @@
 // });
 
 
+
+// Image 3D Hover Effects
 $(document).ready(function(){
   $(".project").hover3d({
     selector: ".project_card",
