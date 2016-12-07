@@ -24,8 +24,11 @@ $(document).ready(function() {
 		$('.typography').toggleClass('display');
 	  });
 
-	$('#iconography').click(function() {
+	$('#iconography').click(function () {
 		$('.iconography').toggleClass('display');
+		if ($('.main').hasClass("display")) {
+			AOS.init(); 
+		}
 	  });
 
 	$('#photography').click(function() {
@@ -97,3 +100,11 @@ $(document).ready(function() {
 	});
 
   });
+
+AOS.init();
+AOS.refreshHard();
+
+	// $('.menu').click(function () {
+	// 		console.log('test');
+	// 		AOS.init(); 
+	// });

@@ -8,7 +8,7 @@
   viewTop.on('scroll', function() {
       if ( viewTop.scrollTop() > logoRecommendTitleOffset) logoRecommendTitle.addClass('show-text');
   });
- })();
+ });
 
 
 
@@ -31,17 +31,7 @@ $(document).ready(function(){
     // invert: true,
   });
 });
-
-
-AOS.init({
-  // offset: 50,
-  duration: 600,
-  easing: 'ease-in',
-  delay: 100, 
-  // anchor-placement: 'top-center'
-});
-
-
+ 
 // Section Colour - Color Circle Events
 // Color 1 - Click Events
 $( ".c1" ).click(function() {

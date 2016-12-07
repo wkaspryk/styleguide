@@ -27,5 +27,8 @@
     "pug",
     "sass",
     "browsersync"
-  ]
+  ],
+  "dependencies": {
+    "aos": "^2.1.1"
+  }
 }
