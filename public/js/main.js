@@ -23,7 +23,7 @@ $(document).ready(function() {
 	});
 
 	$('#buttons').click(function () {
-		$('.buttons').toggleClass('display');
+		$('#section-buttons').toggleClass('display');
 		if ($('.main').hasClass("display")) {
 			AOS.init();
 		}
@@ -117,8 +117,8 @@ $(document).ready(function() {
 
   });
 
-AOS.init();
-AOS.refreshHard();
+
+// AOS.refreshHard();
 
 	// $('.menu').click(function () {
 	// 		console.log('test');

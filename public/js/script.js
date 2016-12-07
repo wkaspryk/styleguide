@@ -21,6 +21,7 @@
 
 
 
+
 // Image 3D Hover Effects
 $(document).ready(function(){
   $(".project").hover3d({
@@ -88,3 +89,6 @@ $( ".c4" ).click(function() {
 		$( this ).addClass("color-show");
 	}
 });
+
+
+
