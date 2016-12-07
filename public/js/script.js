@@ -1,14 +1,14 @@
 
-// (function() {
+(function() {
 
-//   var logoRecommendTitle = $('.section-inner h1'),
-//       logoRecommendTitleOffset = $('.logo-recommend').offset().top*0.8,
-//       viewTop = $(document);
+  var logoRecommendTitle = $('.section-inner h1'),
+      logoRecommendTitleOffset = $('.logo-recommend').offset().top*0.8,
+      viewTop = $(document);
 
-//   viewTop.on('scroll', function() {
-//       if ( viewTop.scrollTop() > logoRecommendTitleOffset) logoRecommendTitle.addClass('show-text');
-//   });
-//  })();
+  viewTop.on('scroll', function() {
+      if ( viewTop.scrollTop() > logoRecommendTitleOffset) logoRecommendTitle.addClass('show-text');
+  });
+ })();
 
 
 
@@ -39,4 +39,62 @@ AOS.init({
   easing: 'ease-in',
   delay: 100, 
   // anchor-placement: 'top-center'
+});
+
+
+// Section Colour - Color Circle Events
+// Color 1 - Click Events
+$( ".c1" ).click(function() {
+	
+	if ($( this).hasClass("color-show")) {
+    $( this ).siblings().removeClass("color-hide");
+		$( this ).removeClass("color-show");
+	}
+	
+	else{
+    $( this ).siblings().addClass("color-hide");
+		$( this ).addClass("color-show");
+	}
+});
+
+// Color 2 - Click Events
+$( ".c2" ).click(function() {
+	
+	if ($( this).hasClass("color-show")) {
+    $( this ).siblings().removeClass("color-hide");
+		$( this ).removeClass("color-show");
+	}
+	
+	else{
+    $( this ).siblings().addClass("color-hide");
+		$( this ).addClass("color-show");
+	}
+});
+
+// Color 3 - Click Events
+$( ".c3" ).click(function() {
+	
+	if ($( this).hasClass("color-show")) {
+    $( this ).siblings().removeClass("color-hide");
+		$( this ).removeClass("color-show");
+	}
+	
+	else{
+    $( this ).siblings().addClass("color-hide");
+		$( this ).addClass("color-show");
+	}
+});
+
+// Color 4
+$( ".c4" ).click(function() {
+	
+	if ($(".c4").hasClass("color-show")) {
+    $( this ).siblings().removeClass("color-hide");
+		$( this ).removeClass("color-show");
+	}
+	
+	else{
+    $( this ).siblings().addClass("color-hide");
+		$( this ).addClass("color-show");
+	}
 });

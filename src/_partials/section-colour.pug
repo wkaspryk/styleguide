@@ -1,33 +1,146 @@
 #section-colour.colour.main
 
   include navigation-top
-      
+          
   .content
-
+    //- include components/color-circle
     // ===== Sections =====
     .section.sec-buttons
-      article.section-article.buttons-article
-
-        // ===== Sections--btn-intro =====
-        //- section.-intro
-        //-   .section-inner
-        //-     p.intro-text.animated.delay
-        //-       | Section Buttons
+      article.section-article.colour-article
               
-        // =====Sections--btn-example =====
+        // =====Sections--iconography-example =====
         section.animated.delay
           .section-inner
             h1.section-inner__title Colour
-            
 
-            p.section-inner__desc 
-              | Speciﬁcations for buttons that will be used throughout the site. The font used for CTA buttons is Museo Sans
+        section.colour-content.primary-color
+          .grid-25.grid-sm-100.colour-description
+            <h3>Primary Colour</h3>
+            <p></p>
+          .grid-70.grid-sm-100.colour-container
 
-        // =====Sections--primary-btn =====
-        section
-          .section-inner        
-            p.section-inner__desc 
+            .colour-grid
 
+              .circle-container.primary-color__1
+                //- Color-circle component here
+                include components/color-circle
+                  block c1
+                    .color.c1
+                      span.color-code #124369
+                  block c2
+                    .color.c2
+                      span.color-code #3E6684
+                  block c3
+                    .color.c3
+                      span.color-code #6B889F
+                  block c4
+                    .color.c4
+                      span.color-code #98ACBB
+
+              .circle-container.primary-color__2
+                //- Color-circle component here
+                include components/color-circle
+                  block c1
+                    .color.c1
+                      span.color-code #2DA4D2
+                  block c2
+                    .color.c2
+                      span.color-code #54B3D8
+                  block c3
+                    .color.c3
+                      span.color-code #7BC2DE
+                  block c4
+                    .color.c4
+                      span.color-code #A3D3E5
+
+              .circle-container.primary-color__3
+                //- Color-circle component here
+                include components/color-circle
+                  block c1
+                    .color.c1
+                      span.color-code #F0695C
+                  block c2
+                    .color.c2
+                      span.color-code #EE857D
+                  block c3
+                    .color.c3
+                      span.color-code #EFA09A
+                  block c4
+                    .color.c4
+                      span.color-code #F0BAB6
+
+
+        section.colour-content
+          .grid-25.grid-sm-100.colour-description
+            <h3>Secondary Colour</h3>
+            <p></p>
+          .grid-70.grid-sm-100.colour-container
+
+             .colour-grid
+
+              .circle-container.secondary-color__1
+                //- Color-circle component here
+                include components/color-circle
+                  block c1
+                    .color.c1
+                      span.color-code #0A4780
+                  block c2
+                    .color.c2
+                      span.color-code #386996
+                  block c3
+                    .color.c3
+                      span.color-code #668BAD
+                  block c4
+                    .color.c4
+                      span.color-code #95ADC4
+
+              .circle-container.secondary-color__2
+                //- Color-circle component here
+                include components/color-circle
+                  block c1
+                    .color.c1
+                      span.color-code #23A4D2
+                  block c2
+                    .color.c2
+                      span.color-code #54B3D7
+                  block c3
+                    .color.c3
+                      span.color-code #7BC2DD
+                  block c4
+                    .color.c4
+                      span.color-code #A3D3E4
+
+              .circle-container.secondary-color__3
+                //- Color-circle component here
+                include components/color-circle
+                  block c1
+                    .color.c1
+                      span.color-code #6B67AD
+                  block c2
+                    .color.c2
+                      span.color-code #8682BA
+                  block c3
+                    .color.c3
+                      span.color-code #A09EC8
+                  block c4
+                    .color.c4
+                      span.color-code #BCBAD6
+
+        section.colour-content
+          .grid-25.grid-sm-100.colour-description
+            <h3>Background Colour</h3>
+            <p></p>
+          .grid-70.grid-sm-100.colour-container
+
+            .colour-grid
+
+              .circle-container.background-color__1
+                .circle
+                  span.color-code #124369
+
+              .circle-container.background-color__2
+                .circle
+                  span.color-code #F2F2F2
 
 
       .section-next
