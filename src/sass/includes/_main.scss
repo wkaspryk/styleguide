@@ -172,7 +172,7 @@ body {
     width: 0;
   }
   &:after {
-    content: '<';
+    content: '';
     position: fixed;
     top: 20px;
     left: 0;
@@ -188,11 +188,18 @@ body {
     text-align:center;
     opacity: 0;
     transition: opacity 1.5s;
-    z-index: 1000;
+    border-bottom: solid rgba(0,0,0,0.07) 5px;
+    z-index: 0;
   }
   &.active:after {
     opacity: 1;
     transition: opacity .5s;
+    background-image: url(../img/arrow.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position-x: 19px;
+    background-position-y: 18px;
+    z-index: 1000;
   }
 }
 
