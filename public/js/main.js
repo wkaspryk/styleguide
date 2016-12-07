@@ -33,7 +33,11 @@ $(document).ready(function() {
 
 	$('#photography').click(function() {
 		$('.photography').toggleClass('display');
+		if ($('.main').hasClass("display")) {
+			AOS.init(); 
+		}
 	  });
+
 	$('#logo-menu').click(function() {
 		$('.main').removeClass('display');
 		$('.logo').toggleClass('display');
