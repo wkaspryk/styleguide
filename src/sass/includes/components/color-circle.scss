@@ -22,17 +22,55 @@
 	cursor: pointer;
 	position: relative;
   overflow: hidden;
+
+
+	// transition: all 1s;
 }
 
 .c1 {
-	height: 60px;
-	line-height: 60px;
+	// height: 60px;
+	height: 100%;
+	// line-height: 60px;
+
 }
 
 .c2, .c3, .c4 {
-	height: 30px;
-	line-height: 30px;
+	// height: 30px;
+	height: 0;
+	// line-height: 30px;
 }
+
+.aos-animate  {
+	
+	.color {
+		transition-delay: 1s;
+	}
+
+
+	.c1 {
+		height: 60px;
+		line-height: 60px;
+	}
+
+	.c2, .c3, .c4 {
+		height: 30px;
+		line-height: 30px;
+	}
+
+	.color-hide {
+		height: 0;
+		transition-delay: 0s;
+	}
+
+	.color-show {
+		height: 100%;
+		transition-delay: 0s;
+	}
+
+}
+
+
+
 
 // ===== Primary Colour 1 =====
 .primary-color__1 .c1 {
@@ -190,11 +228,6 @@
 	line-height: 30px;
 }
 
-.color-hide {
-	height: 0;
-}
 
-.color-show {
-	height: 100%;
-}
+
 

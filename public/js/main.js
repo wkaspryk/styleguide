@@ -1,5 +1,8 @@
-
 $(document).ready(function() {
+
+		// Init AOS
+    AOS.init();
+
 	$('.menu').click(function() {
 		$(this).toggleClass('active');
     $('.styleguide-body').css('overflow', 'visible');
@@ -19,14 +22,28 @@ $(document).ready(function() {
 		$('.colour').toggleClass('display');
 		if ($('.main').hasClass("display")) {
 			AOS.init();
+
+			// ===== Reset color circle when switching back from other sections =====
+			$( '.c1, .c2, .c3 , .c4' ).removeClass('color-hide');
+			$( '.c1, .c2, .c3 , .c4' ).removeClass('color-show');
+			$( '.color' ).css("transition-delay", "1s");	
 		}
 	});
 
 	$('#buttons').click(function () {
 		$('#section-buttons').toggleClass('display');
-		if ($('.main').hasClass("display")) {
-			AOS.init();
-		}
+		// if ($('.main').hasClass("display")) {
+			// AOS.init();
+			// AOS.refresh();
+		// 	AOS.refreshHard();
+		// }
+
+		// window.addEventListener('resize', debounce(refresh, 50, true));
+		// AOS.init();
+		AOS.refresh();
+		// debounce(refresh, 50, true);
+		// AOS.refreshHard();
+		
 	});
 
 	$('#typography').click(function () {
@@ -64,6 +81,12 @@ $(document).ready(function() {
 		$('.menu').removeClass('active non-active');
 		$('#colour').toggleClass('active');
 		$('.menu').not('#colour').toggleClass('non-active');
+
+		// ===== Reset color circle when switching back from other sections =====
+		$( '.c1, .c2, .c3 , .c4' ).removeClass('color-hide');
+		$( '.c1, .c2, .c3 , .c4' ).removeClass('color-show');
+		$( '.color' ).css("transition-delay", "1s");	
+
 	  });
 
 	$('#buttons-menu').click(function() {
