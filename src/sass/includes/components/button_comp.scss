@@ -52,7 +52,7 @@
 .button__annotation-right-text {
 	position: absolute;
 	top: calc(50% - 8px);
-	left: 110%;
+	left: 115%;
 	color: $button__annotation-color;
 	transition: all 250ms ease;
 	// opacity: 0;
@@ -88,4 +88,77 @@
 	}
 }
 
+.button__annotation-right-line {
+	position: absolute;
+	top: 10%;
+	left: 107%;
+	background: #f255ac;
+	width: 2px;
+	height: 25px;
+	transition: all 1s cubic-bezier(0.42, 0, 0, 0.995);
+	transform: scaleY(0) rotate(0deg);
+	transform-origin: center;
+}
+
+.button__annotation-right-circle {
+	position: absolute;
+	top: -15%;
+	left: 95%;
+	background: '';
+	width: 20px;
+	height: 20px;
+	border: 2px solid #f255ac;
+	border-radius: 100%;
+	transition: all 1s cubic-bezier(0.42, 0, 0, 0.995);
+	transform: scale(0);
+	transform-origin: center;
+}
+
+
+
+
+// ====== Button Animation with Annotations =====
+
+.aos-animate {
+
+	.button__annotation-left-line.button--animated-scaleY {
+		animation: scaleY 1s cubic-bezier(0.42, 0, 0, 0.995) forwards;
+		transform-origin: center center;
+		animation-delay: 1s;
+	}
+
+	.button__annotation-left-text.button--animated-left {
+		animation: left 1s cubic-bezier(0.42, 0, 0, 0.995), 
+								fade 0.5s cubic-bezier(0.42, 0, 0, 0.995) forwards;
+		opacity: 0;
+		animation-delay: 1.5s;
+	}
+
+
+	.button__annotation-right-text.button--animated-right {
+		animation: right 1s cubic-bezier(0.42, 0, 0, 0.995), 
+								fade 0.5s cubic-bezier(0.42, 0, 0, 0.995) forwards;
+		opacity: 0;
+		animation-delay: 3s;
+	}
+
+	.button__annotation-right-line {
+
+		&.button--animated-scaleY {
+		  transform: scaleY(1) rotate(-45deg); 
+			transition-delay: 2.5s;
+		}
+	}
+
+	.button__annotation-right-circle {
+		&.button--animated-scale {
+			transform: scale(1); 
+			transition-delay: 2.5s;
+		}
+	}
+
+
+
+
+} // /.aos-animate
 
