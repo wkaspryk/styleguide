@@ -1,6 +1,5 @@
 // ===== Section =====
 #section-typography {
-
 	background-color: #f1f1f1;
 	// ===== Section - Logo - Article =====
 	.section-article {
@@ -31,12 +30,10 @@
     		flex-wrap: wrap;
     		max-width: 1020px;
 			margin: 0 auto;
-
 			.tgrap {
 				display: flex;
 				overflow: hidden;
 				height: 110px;
-
 				.typo-description {
 					h1 {
 					    align-items: center;
@@ -97,7 +94,6 @@
 					    -webkit-margin-start: 0px;
 					    -webkit-margin-end: 0px;
 					}
-
 					.typo_desc_container {
 					    display: -webkit-box;
 					    display: -webkit-flex;
@@ -109,6 +105,49 @@
 					    justify-content: space-between;
 					    font-size: 12px;
 					    margin-top: 10px;
+					}
+				}
+			}
+			.headings{
+				margin: 10% 0 0;
+				.firts{
+					text-align: center;
+					h2{
+						text-align: center;
+						color: #34A7DC;
+					}
+					h3{
+						margin: 0 20%;
+						text-align: center;	
+					}
+
+				}
+				.second{
+    				margin: 10% 0 0;
+					text-align: center;
+					h2{
+						text-align: center;
+						color: #34A7DC;
+					}
+					h3{
+						margin: 0 10%;
+						text-align: center;	
+					}
+					h4{
+						text-align: center;
+						color: #34A7DC;
+					}
+				}
+				.thirt{
+					margin: 10% 0 5%;
+					text-align: center;
+					h1{
+						text-align: center;
+					}
+					h4{
+						color: #34A7DC;
+						margin: 0 20%;
+						text-align: center;
 					}
 				}
 			}				
@@ -123,4 +162,16 @@
     line-height: 1;
     margin: 0;
     padding: 0;
-	}
+}
+.section.sec-blue{
+	.back{
+		background-color: #124369;
+		padding: 5% 27% 5%;
+		h1, h4{
+			color: #fff;
+			padding: 0% 15%;
+			text-align: center;	
+			text-align: center;
+		}
+	}	
+}
