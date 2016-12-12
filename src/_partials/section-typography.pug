@@ -2,13 +2,13 @@
   .content
 
     // ===== Sections =====
-    .section.sec-typography
-      .lettera A 
-      article.section-article.typography-article  
+    #firts-sectionA.section.sec-typography
+      .lettera(data-aos='fade-right' data-aos-anchor="#section-typography" data-aos-anchor-placement="top-bottom" data-aos-offset="-400" data-aos-easing="ease-in-sine" data-aos-duration="500") A 
+      article.section-article.typography-article
         section.animated.delay
           .section-inner
             h1.section-inner__title Typography.
-        section.typography-content
+        section.typography-content(data-aos='fade-right' data-aos-anchor="#section-typography" data-aos-anchor-placement="top-bottom" data-aos-offset="-300" data-aos-easing="ease-in-sine" data-aos-duration="800")
           .grid-100.grid-sm-100.tgrap
             .grid-20.grid-sm-100.typo-description.animated.delay
               <h1>Heading 1</h1>
@@ -45,7 +45,7 @@
             .grid-80.grid-sm-100.typo-container
              .hbody The quick brown fox jumps over the lazy dog
              .typo_desc_container size: 16px; weight: 300; line-height: 1.5em
-          .grid-100.grid-sm-100.headings
+          .grid-100.grid-sm-100.headings(data-aos='fade-up' data-aos-anchor="#firts-sectionA"  data-aos-anchor-placement="top-bottom" data-aos-duration="800")
             .grid-100.grid-sm-100.firts
               <h2>HEADING 2</h2>
               <h1>HEADING 1</h1>
