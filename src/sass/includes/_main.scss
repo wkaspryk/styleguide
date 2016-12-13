@@ -253,3 +253,14 @@ body {
   display: flex !important;
 }
 
+//Tablet and below responsive menu layout
+
+@media (max-width: #{$tablet-portrait}) {
+  .container {
+    flex-direction: column;
+    .menu {
+      width: 100%;
+      animation: none;
+    }
+  }
+}
