@@ -2,15 +2,19 @@
 $(document).ready(function(){
   $(".project").hover3d({
     selector: ".project_card",
-    sensitivity: 120,
+    sensitivity: 100,
     shine: false,
-    perspective: 1600,
+    // perspective: 1600,
+		// hoverInClass: "transition: .3s ease-out",
+		// hoverOutClass: "transition: .3s ease-in",
+		// hoverClass: "transition: 0.4s ease;"
     // invert: true,
   });
 });
 
  
 // Section Colour - Color Circle Events
+
 // Color 1 - Click Events
 $( ".c1" ).click(function() {
 	$( '.color' ).css("transition-delay", "0s");	
@@ -74,7 +78,6 @@ $( ".c4" ).click(function() {
 		$( this ).addClass("color-show");
 	}
 });
-
 
 
 

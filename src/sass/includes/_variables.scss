@@ -24,9 +24,15 @@ $min-width:    	$phone-portrait;
 
 
 // Colours
-$button-primary-color: #2da4d2;
 $button__annotation-color: #f255ac;
 
+$button-primaryLight-color: #2da4d2;
+$button-primaryLight-hover-color: #1F74B5;
+$button-primaryLight-active-color: #124369;
+
+$button-primaryDark-color: #0A4780;
+$button-primaryDark-hover-color: #0E334F;
+$button-primaryDark-active-color: #081D2E;
 
 //  Mixins
 @mixin word-wrap-disable() {

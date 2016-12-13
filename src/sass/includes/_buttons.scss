@@ -89,37 +89,37 @@
 	.button-grid-layout {
 		.button--container:nth-child(1) {
 			.button {
-				background-color: #2DA4D2;
+				background-color: $button-primaryLight-color;
 			}
 		}
 		
 		.button--container:nth-child(2) {
 			.button {
-				background-color: #1F74B5;
+				background-color: $button-primaryLight-hover-color;
 			}
 		}
 
 		.button--container:nth-child(3) {
 			.button {
-				background-color: #124369;
+				background-color: $button-primaryLight-active-color;
 			}
 		}
 
 		.button--container:nth-child(4) {
 			.button {
-				background-color: #0A4780;
+				background-color: $button-primaryDark-color;
 			}
 		}
 
 		.button--container:nth-child(5) {
 			.button {
-				background-color: #0E334F;
+				background-color: $button-primaryDark-hover-color;
 			}
 		}
 		
 		.button--container:nth-child(6) {
 			.button {
-				background-color: #081D2E;
+				background-color: $button-primaryDark-active-color;
 			}
 		}
 	}
@@ -223,7 +223,7 @@
 	.button--container:nth-child(1) {
 
 		.button {
-			background-color: #2DA4D2 !important; 
+			background-color: $button-primaryLight-color !important; 
 			border: none !important;
 			box-shadow: 0px 0px 10px 2px #3E94CF;
 
@@ -236,7 +236,7 @@
 	.button--container:nth-child(2) {
 
 		.button {
-			background-color: #0E334F !important; 
+			background-color: $button-primaryDark-color !important; 
 			border: none !important;
 			box-shadow: 0px 0px 10px 2px #3E94CF;
 
