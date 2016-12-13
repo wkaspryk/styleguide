@@ -50,10 +50,7 @@
 }
 
 @media (max-width: #{$small-desktop}) {
-	.iconography-article {
-		padding: 0 5%;
-		.icon-container {
-			margin-left: 0;
-		}
+	.tgrap {
+	    display: block;
 	}
 }

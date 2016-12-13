@@ -4,20 +4,16 @@
 	// ===== Section - Logo - Article =====
 	.section-article {
 		section {
-
 			margin-bottom: 80px;
-
 			.section-inner {
 				max-width: 1020px;
 				margin: 0 auto;
-
 				.section-inner__title {
 					color: #13567B;
 					text-align: left;
 				    font-size: 62px;
     				font-weight: bold;
 				}
-
 				.section-inner__desc {
 					text-align: center;
 					width: 60%;
@@ -33,13 +29,11 @@
 			.tgrap {
 				display: flex;
 				overflow: hidden;
-				height: 110px;
 				.typo-description {
 					h1 {
 					    align-items: center;
 						color: #eaeaea;
 					  	display: flex;
-					    height: 110px;
 					    font-size: 43px;
 					    font-weight: bold;
 					    justify-content: flex-end;
@@ -171,6 +165,33 @@
 			color: #fff;
 			padding: 0% 15%;
 			text-align: center;	
+<<<<<<< Updated upstream
+=======
+			text-align: center;
+>>>>>>> Stashed changes
 		}
 	}	
+}
+@media (max-width: #{$small-desktop}) {
+	#section-typography .section-article .typography-content .tgrap{
+		display: block;
+		.typo-description {
+			h1 {
+			    justify-content: flex-start;
+				margin-top: 40px;
+				padding: 0 30px;
+			}
+		}	
+		.typo-container {
+			padding: 0 30px;
+			margin: 0;
+		}
+	}
+	.section.sec-blue .back {
+    	padding: 5% 5%;	
+	}
+	#section-typography .section-article section .section-inner .section-inner__title {
+	    text-align: center;
+	    padding: 0 0 0 30px;
+	}
 }
