@@ -116,7 +116,7 @@ body {
 }
 
 #iconography:hover {
-  background: #34A7DC;
+  background: #00abd6;
 }
 
 #photography:hover {
@@ -147,7 +147,7 @@ body {
 
 #buttons.active{
  h2 {
-    color: #34A7DC;
+    color: #00abd6;
   }
 }
 #typography.active {
@@ -155,7 +155,7 @@ body {
 }
 
 #iconography.active {
-  background: #34A7DC;
+  background: #00abd6;
 }
 
 #photography.active {
@@ -253,7 +253,6 @@ body {
   display: flex !important;
 }
 
-<<<<<<< Updated upstream
 //Tablet and below responsive menu layout
 
 @media (max-width: #{$tablet-portrait}) {
@@ -261,11 +260,9 @@ body {
     flex-direction: column;
     .menu {
       width: 100%;
-      animation: none;
     }
   }
 }
-=======
 @media (max-width: #{$small-desktop}) {
   .container{
     flex-direction: column;
@@ -284,5 +281,3 @@ body {
     display: none;
   }
 }
-
->>>>>>> Stashed changes

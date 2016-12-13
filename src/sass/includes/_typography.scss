@@ -52,39 +52,65 @@
 					}
 					h1 {
 					 	margin: 0;
+					 	font-size: 38px;
+					    font-weight: 100;
+					    line-height: 49.4px ;
 					}
 					h2 {
 					    margin: 0;
+					    font-size: 30px;
+					    font-weight: 300;
 					}
 					h3 {
-					    font-size: 22px;
+						color: #00abd6;
+					    font-size: 23px;
 					    font-weight: 300;
-					    letter-spacing: 0;
-					    line-height: 1.5;
+					    letter-spacing: 1.5px;
+					    line-height: 27.6px ;
 					}
 					h4 {	
-    					color: #34A7DC;
+    					color: #00abd6;
 					    font-size: 18px;
 					    font-weight: 300;
 					    letter-spacing: 1.5px;
-					    line-height: 1.3;
+					    line-height: 21.6px;
 					}
-					.hlink {
-						color: #13567B;
-					    font-size: 16px;
+					.hgray{
+						color: rgba(0, 0, 0, 0.5);
+					    font-size: 18px;
 					    font-weight: 300;
-					    line-height: 1.3;
-						-webkit-margin-before: 1.33em;
+					    letter-spacing: 1.5px;
+					    line-height: 21.6px;
+					    -webkit-margin-before: 1.33em;
 					    -webkit-margin-after: 1.33em;
 					    -webkit-margin-start: 0px;
 					    -webkit-margin-end: 0px;
 					}
-					.hbody {
+					.hlink {
+						color: #194069;
 					    font-size: 16px;
 					    font-weight: 300;
-					    line-height: 1.5;
-					    -webkit-margin-before: 1.33em;
-					    -webkit-margin-after: 1.33em;
+					    line-height: 24px;
+						-webkit-margin-before: 24px;
+					    -webkit-margin-after: 24px;
+					    -webkit-margin-start: 0px;
+					    -webkit-margin-end: 0px;
+					}
+					.hbody {
+					    font-size: 22px;
+					    font-weight: 300;
+					    line-height: 24px;
+					    -webkit-margin-before: 24px;
+					    -webkit-margin-after: 24px;
+					    -webkit-margin-start: 0px;
+					    -webkit-margin-end: 0px;
+					}
+					.hbodys {
+					    font-size: 16px;
+					    font-weight: 300;
+					    line-height: 24px;
+					    -webkit-margin-before: 24px;
+					    -webkit-margin-after: 24px;
 					    -webkit-margin-start: 0px;
 					    -webkit-margin-end: 0px;
 					}
@@ -108,7 +134,7 @@
 					text-align: center;
 					h2{
 						text-align: center;
-						color: #34A7DC;
+						color: #00abd6;
 					}
 					h3{
 						margin: 0 20%;
@@ -121,7 +147,7 @@
 					text-align: center;
 					h2{
 						text-align: center;
-						color: #34A7DC;
+						color: #00abd6;
 					}
 					h3{
 						margin: 0 10%;
@@ -129,7 +155,7 @@
 					}
 					h4{
 						text-align: center;
-						color: #34A7DC;
+						color: #00abd6;
 					}
 				}
 				.thirt{
@@ -139,7 +165,7 @@
 						text-align: center;
 					}
 					h4{
-						color: #34A7DC;
+						color: #00abd6;
 						margin: 0 20%;
 						text-align: center;
 					}
@@ -164,24 +190,20 @@
 		h1, h4 {
 			color: #fff;
 			padding: 0% 15%;
-			text-align: center;	
-<<<<<<< Updated upstream
-=======
 			text-align: center;
->>>>>>> Stashed changes
 		}
 	}	
 }
 @media (max-width: #{$small-desktop}) {
 	#section-typography .section-article .typography-content .tgrap{
 		display: block;
-		.typo-description {
+		.typo-description{
 			h1 {
 			    justify-content: flex-start;
 				margin-top: 40px;
 				padding: 0 30px;
 			}
-		}	
+		}
 		.typo-container {
 			padding: 0 30px;
 			margin: 0;
