@@ -73,6 +73,9 @@ $(document).ready(function() {
 		$('.menu').removeClass('active non-active');
 		$('#logo').toggleClass('active');
 		$('.menu').not('#logo').toggleClass('non-active');
+		if ($('.main').hasClass("display")) {
+			AOS.init();
+		}
 	  });
 
 	$('#colour-menu').click(function() {
@@ -86,7 +89,9 @@ $(document).ready(function() {
 		$( '.c1, .c2, .c3 , .c4' ).removeClass('color-hide');
 		$( '.c1, .c2, .c3 , .c4' ).removeClass('color-show');
 		$( '.color' ).css("transition-delay", "1s");	
-
+		if ($('.main').hasClass("display")) {
+			AOS.init();
+		}
 	  });
 
 	$('#buttons-menu').click(function() {
@@ -95,7 +100,9 @@ $(document).ready(function() {
 		$('.menu').removeClass('active non-active');
 		$('#buttons').toggleClass('active');
 		$('.menu').not('#buttons').toggleClass('non-active');
-
+		if ($('.main').hasClass("display")) {
+			AOS.init();
+		}
 	  });
 
 	$('#typography-menu').click(function() {
@@ -104,7 +111,9 @@ $(document).ready(function() {
 		$('.menu').removeClass('active non-active');
 		$('#typography').toggleClass('active');
 		$('.menu').not('#typography').toggleClass('non-active');
-
+		if ($('.main').hasClass("display")) {
+			AOS.init();
+		}
 	  });
 
 	$('#iconography-menu').click(function() {
@@ -113,6 +122,9 @@ $(document).ready(function() {
 		$('.menu').removeClass('active non-active');
 		$('#iconography').toggleClass('active');
 		$('.menu').not('#iconography').toggleClass('non-active');
+		if ($('.main').hasClass("display")) {
+			AOS.init();
+		}
 	  });
 
 	$('#photography-menu').click(function() {
@@ -121,6 +133,9 @@ $(document).ready(function() {
 		$('.menu').removeClass('active non-active');
 		$('#photography').toggleClass('active');
 		$('.menu').not('#photography').toggleClass('non-active');
+		if ($('.main').hasClass("display")) {
+			AOS.init();
+		}
 	  });
 
 	var wheight = $(window).height();
