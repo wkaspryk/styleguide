@@ -129,34 +129,66 @@
 				}
 			}
 			.headings{
-				margin: 10% 0 0;
-				.firts{
-					text-align: center;
-					h2{
+				margin: 10% auto 0;
+				display: flex;
+			    .headingstop{
+			    	display: flex;
+			    	flex-direction: row;
+			    	flex-wrap: wrap;
+			    	justify-content: center;
+			    	margin: 10% auto 0;
+					.first{
+						margin: auto;
 						text-align: center;
-						color: #00abd6;
+						h1{
+							margin: 0;
+							text-align: center;
+						}
+						h3{
+							color: #00abd6;
+							margin: auto;
+							text-align: center;
+						}
+						.hbody{
+						width: 392.5px;
+						height: 72px;
+						font-size: 22px;
+						font-weight: 300;
+						font-style: normal;
+						font-stretch: normal;
+						line-height: 1.09;
+						text-align: center;
+						color: #444444;
+						margin: auto;
+						}
 					}
-					h3{
-						margin: 0 20%;
-						text-align: center;	
-					}
-
 				}
 				.second{
-    				margin: 10% 0 0;
+    				margin: auto;
 					text-align: center;
-					h2{
-						text-align: center;
-						color: #00abd6;
-					}
+	
 					h3{
-						margin: 0 10%;
+						color: #00abd6;
+						margin: auto;
 						text-align: center;	
 					}
 					h4{
 						text-align: center;
 						color: #00abd6;
 					}
+					.hbody{
+					width: 392.5px;
+					height: 72px;
+					font-size: 22px;
+					font-weight: 300;
+					font-style: normal;
+					font-stretch: normal;
+					line-height: 1.09;
+					text-align: center;
+					color: #444444;
+					margin: auto;
+					}
+
 				}
 				.thirt{
 					margin: 10% 0 5%;
@@ -182,6 +214,20 @@
     line-height: 1;
     margin: 0;
     padding: 0;
+}
+.fontname {
+	color: #555;
+    font-size: 70px;
+    font-weight: bold;
+    position: absolute;
+    line-height: 1;
+    margin: 20% 0 0 180px;
+    padding: 0;
+    width: 300px;
+   	h1{	
+	    margin-top: -7px;
+   		text-align: left;
+    }
 }
 .section.sec-blue{
 	.back{

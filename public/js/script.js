@@ -78,7 +78,11 @@ $( ".c4" ).click(function() {
 		$( this ).addClass("color-show");
 	}
 });
-
+var transition= document.getElementById('blind');
+        setTimeout(function() {
+            transition.classList.add('close');
+            document.body.style.overflowY= "visible";
+        }, 4000);
 
 
 
