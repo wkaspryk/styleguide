@@ -50,9 +50,6 @@
 
 }
 
-
-
-
 @media (max-width: #{$small-desktop}) {
 	.colour-article {
 		padding: 0 5%;
@@ -61,3 +58,13 @@
 		}
 	}
 }
+
+@media (max-width: #{$phone-large}) {
+
+	.circle {
+    transform: scale(0.6);
+    transform-origin: left top;
+	}
+}
+
+

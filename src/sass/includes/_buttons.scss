@@ -259,3 +259,14 @@
 		}
 	}
 }
+
+
+
+@media (max-width: #{$small-desktop}) {
+	.buttons-article {
+		padding: 0 5%;
+		.button-container {
+			margin-left: 0;
+		}
+	}
+}

@@ -3,7 +3,6 @@
 // init controller
 var controller = new ScrollMagic.Controller();
 
-
 var imgTl = new TimelineMax()
   .add([
         TweenMax.from("#parallax-1-desc", 1, {y: 100, ease: Linear.easeNone}),
@@ -23,3 +22,6 @@ var scene = new ScrollMagic.Scene({
         .setTween(imgTl)
         // .addIndicators({name: "1 (duration: 0)"}) // add indicators (requires plugin)
         .addTo(controller);
+
+
+
