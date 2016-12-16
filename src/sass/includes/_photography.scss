@@ -26,6 +26,10 @@
 	}
 }
 
+.photography-article {
+	padding: 0 5%;
+}
+
 .photo-content {
 	max-width: 1020px;
 	margin: 0 auto;
@@ -55,9 +59,6 @@
 @media (max-width: #{$small-desktop}) {
 	.photo-container {
 		padding-left: 0;
-	}
-	.photography-article {
-		padding: 0 5%;
 	}
 }
 

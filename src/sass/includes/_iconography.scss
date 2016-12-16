@@ -30,6 +30,10 @@
 
 //icon-specific styles
 
+.iconography-article {
+	padding: 0 5%;
+}
+
 .iconography-content {
 	max-width: 1020px;
 	margin: 0 auto;
@@ -52,5 +56,8 @@
 @media (max-width: #{$small-desktop}) {
 	.tgrap {
 	    display: block;
+	}
+	.icon-container {
+		margin-left: 0;
 	}
 }
