@@ -2,237 +2,269 @@
 #section-typography {
 	background-color: #f1f1f1;
 	// ===== Section - Logo - Article =====
-	.section-article {
-		section {
-			margin-bottom: 80px;
-			.section-inner {
-				max-width: 1020px;
-				margin: 0 auto;
-				.section-inner__title {
-					color: #13567B;
-					text-align: left;
-				    font-size: 62px;
-    				font-weight: bold;
-				}
-				.section-inner__desc {
-					text-align: center;
-					width: 60%;
-					margin: auto;
-				}
-			}
-		}
-		.typography-content {
-			display: flex;
-    		flex-wrap: wrap;
-    		max-width: 1020px;
-			margin: 0 auto;
-			.tgrap {
-				display: flex;
-				overflow: hidden;
-				.typo-description {
-					h1 {
-					    align-items: center;
-						color: #eaeaea;
-					  	display: flex;
-					    font-size: 43px;
-					    font-weight: bold;
-					    justify-content: flex-end;
-					    letter-spacing: -1px;
-					    margin: auto;
-						text-align: right;
-						-webkit-text-stroke: 1px #eaeaea;
-					}
-				}	
-				.typo-container {
-					align-self: center;
-					margin-left: 7%;
+	.lettera {
+		color: #fff;
+		font-size: 750px;
+		font-weight: bold;
+		position: absolute;
+		line-height: 1;
+		margin: 50px 0 0;
+		padding: 0;
+	}
 
-					h1, h2, h3, h4, .hlink, .hbody{
-					text-align: left;
-					}
-					h1 {
-					 	margin: 0;
-					 	font-size: 38px;
-					    font-weight: 100;
-					    line-height: 49.4px ;
-					}
-					h2 {
-					    margin: 0;
-					    font-size: 30px;
-					    font-weight: 300;
-					}
-					h3 {
-						color: #00abd6;
-					    font-size: 23px;
-					    font-weight: 300;
-					    letter-spacing: 1.5px;
-					    line-height: 27.6px ;
-					}
-					h4 {	
-    					color: #00abd6;
-					    font-size: 18px;
-					    font-weight: 300;
-					    letter-spacing: 1.5px;
-					    line-height: 21.6px;
-					}
-					.hgray{
-						color: rgba(0, 0, 0, 0.5);
-					    font-size: 18px;
-					    font-weight: 300;
-					    letter-spacing: 1.5px;
-					    line-height: 21.6px;
-					    -webkit-margin-before: 1.33em;
-					    -webkit-margin-after: 1.33em;
-					    -webkit-margin-start: 0px;
-					    -webkit-margin-end: 0px;
-					}
-					.hlink {
-						color: #194069;
-					    font-size: 16px;
-					    font-weight: 300;
-					    line-height: 24px;
-						-webkit-margin-before: 24px;
-					    -webkit-margin-after: 24px;
-					    -webkit-margin-start: 0px;
-					    -webkit-margin-end: 0px;
-					}
-					.hbody {
-					    font-size: 22px;
-					    font-weight: 300;
-					    line-height: 24px;
-					    -webkit-margin-before: 24px;
-					    -webkit-margin-after: 24px;
-					    -webkit-margin-start: 0px;
-					    -webkit-margin-end: 0px;
-					}
-					.hbodys {
-					    font-size: 16px;
-					    font-weight: 300;
-					    line-height: 24px;
-					    -webkit-margin-before: 24px;
-					    -webkit-margin-after: 24px;
-					    -webkit-margin-start: 0px;
-					    -webkit-margin-end: 0px;
-					}
-					.typo_desc_container {
-					    display: -webkit-box;
-					    display: -webkit-flex;
-					    display: -ms-flexbox;
-					    display: flex;
-					    -webkit-box-pack: justify;
-					    -webkit-justify-content: space-between;
-					    -ms-flex-pack: justify;
-					    justify-content: space-between;
-					    font-size: 12px;
-					    margin-top: 10px;
-					}
-				}
-			}
-			.headings{
-				margin: 10% auto 0;
-				display: flex;
-			    .headingstop{
-			    	display: flex;
-			    	flex-direction: row;
-			    	flex-wrap: wrap;
-			    	justify-content: center;
-			    	margin: 10% auto 0;
-					.first{
-						margin: auto;
-						text-align: center;
-						h1{
-							margin: 0;
-							text-align: center;
-						}
-						h3{
-							color: #00abd6;
-							margin: auto;
-							text-align: center;
-						}
-						.hbody{
-						width: 392.5px;
-						height: 72px;
-						font-size: 22px;
-						font-weight: 300;
-						font-style: normal;
-						font-stretch: normal;
-						line-height: 1.09;
-						text-align: center;
-						color: #444444;
-						margin: auto;
-						}
-					}
-				}
-				.second{
-    				margin: auto;
-					text-align: center;
-	
-					h3{
-						color: #00abd6;
-						margin: auto;
-						text-align: center;	
-					}
-					h4{
-						text-align: center;
-						color: #00abd6;
-					}
-					.hbody{
-					width: 392.5px;
-					height: 72px;
-					font-size: 22px;
-					font-weight: 300;
-					font-style: normal;
-					font-stretch: normal;
-					line-height: 1.09;
-					text-align: center;
-					color: #444444;
-					margin: auto;
-					}
+	.fontname {
+		color: #444444;
+		font-size: 70px;
+		font-weight: bold;
+		position: absolute;
+		line-height: 1;
+		margin: 38% 0 0 91px;
+		margin-bottom: 0px;
+		padding: 0;
+		width: 300px;
 
-				}
-				.thirt{
-					margin: 10% 0 5%;
-					text-align: center;
-					h1{
-						text-align: center;
-					}
-					h4{
-						color: #00abd6;
-						margin: 0 20%;
-						text-align: center;
-					}
-				}
-			}				
+		h1 {	
+			margin-top: -7px;
+			text-align: left;
 		}
 	}
 }
-.lettera {
-	color: #fff;
-    font-size: 750px;
-    font-weight: bold;
-    position: absolute;
-    line-height: 1;
-    margin: 0;
-    padding: 0;
+
+.section-article {
+
+	section {
+		margin-bottom: 30px;
+		
+		.section-inner {
+			max-width: 1020px;
+			margin: 0 auto;
+			
+			.section-inner__title {
+				color: #13567B;
+				text-align: left;
+				font-size: 62px;
+				font-weight: bold;
+			}
+			
+			.section-inner__desc {
+				text-align: center;
+				width: 60%;
+				margin: auto;
+			}
+		}
+	}
 }
-.fontname {
-	color: #555;
-    font-size: 70px;
-    font-weight: bold;
-    position: absolute;
-    line-height: 1;
-    margin: 38% 0 0 91px;
-    padding: 0;
-    width: 300px;
-   	h1{	
-	    margin-top: -7px;
-   		text-align: left;
-    }
+
+.typography-content {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1020px;
+	margin: 0 auto;
+	.fontname{
+		display: none;
+	}			
 }
-.section.sec-blue{
-	.back{
+
+.tgrap {
+	display: flex;
+	overflow: hidden;
+	.typo-description {
+		
+		h1 {
+			align-items: center;
+			color: #dedede;
+			display: flex;
+			font-size: 43px;
+			font-weight: bold;
+			justify-content: flex-end;
+			letter-spacing: -1px;
+			margin: auto;
+			text-align: right;
+			-webkit-text-stroke: 1px #dedede;
+		}
+	}
+}
+
+.headings {
+	margin: 10% auto 0;
+	display: flex;
+
+	.second {
+		margin: auto;
+		text-align: center;
+
+		h3 {
+			color: #00abd6;
+			margin: auto;
+			text-align: center;	
+		}
+		h4{
+			text-align: center;
+			color: #00abd6;
+		}
+		.hbody{
+			width: 392.5px;
+			height: 72px;
+			font-size: 22px;
+			font-weight: 300;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.09;
+			text-align: center;
+			color: #444444;
+			margin: auto;
+		}
+	}
+	.thirt{
+		margin: 10% 0 5%;
+		text-align: center;
+
+		h1 {
+			text-align: center;
+		}
+
+		h4 {
+			color: #00abd6;
+			margin: 0 20%;
+			text-align: center;
+		}
+	}
+}
+
+.headingstop {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 10% auto 0;
+	.first{
+		margin: auto;
+		text-align: center;
+		h1{
+			margin: 0;
+			text-align: center;
+		}
+		h3 {
+			color: #00abd6;
+			margin: auto;
+			text-align: center;
+		}
+
+		.hbody {
+			width: 392.5px;
+			height: 72px;
+			font-size: 22px;
+			font-weight: 300;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.09;
+			text-align: center;
+			color: #444444;
+			margin: auto;
+		}
+	}
+}
+
+.typo-container {
+	align-self: center;
+	margin-left: 7%;
+
+	h1, h2, h3, h4, .hlink, .hbody {
+		text-align: left;
+	}
+
+	h1 {
+		margin: 0;
+		font-size: 38px;
+		font-weight: 100;
+		line-height: 49.4px ;
+	}
+
+	h2 {
+		margin: 0;
+		font-size: 30px;
+		font-weight: 300;
+	}
+
+	h3 {
+		color: #00abd6;
+		font-size: 23px;
+		font-weight: 300;
+		letter-spacing: 1.5px;
+		line-height: 27.6px ;
+	}
+
+	h4 {	
+		color: #00abd6;
+		font-size: 18px;
+		font-weight: 300;
+		letter-spacing: 1.5px;
+		line-height: 21.6px;
+	}
+
+	.hgray {
+		color: rgba(0, 0, 0, 0.5);
+		font-size: 18px;
+		font-weight: 300;
+		letter-spacing: 1.5px;
+		line-height: 21.6px;
+		-webkit-margin-before: 1.33em;
+		-webkit-margin-after: 1.33em;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 0px;
+	}
+
+	.hlink {
+		color: #194069;
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 24px;
+		-webkit-margin-before: 24px;
+		-webkit-margin-after: 24px;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 0px;
+	} 
+
+	.hbody {
+		font-size: 22px;
+		font-weight: 300;
+		line-height: 24px;
+		-webkit-margin-before: 24px;
+		-webkit-margin-after: 24px;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 0px;
+	}
+
+	.hbodys {
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 24px;
+		-webkit-margin-before: 24px;
+		-webkit-margin-after: 24px;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 0px;
+	}
+
+	.typo_desc_container {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		font-size: 12px;
+		margin-top: 10px;
+	}
+}
+
+.section.sec-blue {
+	
+	.back {
 		background-color: #124369;
 		padding: 5% 27% 5%;
+		
 		h1, h4 {
 			color: #fff;
 			padding: 0% 15%;
@@ -240,26 +272,53 @@
 		}
 	}	
 }
+
+@media (max-width: #{$med-sm-desktop}) {
+	#firts-sectionA .fontname {
+		opacity: 0;
+	}
+
+	#firts-sectionA article .fontname {
+		color: #444;
+    opacity: 1;
+    margin: 10px auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 320px;
+    h1{
+    	margin: 0 0 0 10px;
+    }
+	}
+}
+
 @media (max-width: #{$small-desktop}) {
-	#section-typography .section-article .typography-content .tgrap{
+	#section-typography.typography.main .content .section-article .typography-content .tgrap{
 		display: block;
-		.typo-description{
+
+		.typo-description {
+			
 			h1 {
-			    justify-content: flex-start;
+				justify-content: flex-start;
 				margin-top: 40px;
 				padding: 0 30px;
 			}
 		}
+		
 		.typo-container {
 			padding: 0 30px;
 			margin: 0;
 		}
 	}
+
 	.section.sec-blue .back {
-    	padding: 5% 5%;	
+		padding: 5% 5%;	
 	}
+
 	#section-typography .section-article section .section-inner .section-inner__title {
-	    text-align: center;
-	    padding: 0 0 0 30px;
+		text-align: center;
+		padding: 0 0 0 30px;
 	}
 }
