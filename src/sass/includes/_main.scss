@@ -533,9 +533,6 @@ body {
 }
 @media (max-width: #{$small-desktop}) {
   .loader {
-    position: absolute;
     width: 280px;
-    height: 200px;
-    margin: auto;
   }
 }

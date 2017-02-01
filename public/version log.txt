@@ -1,4 +1,5 @@
 PNI Styleguide - Demo Website
 
 Version Log:
-v1.0 - 1/30/2017 (uploaded)
+v1.0 - 1/30/2017 (1st uploaded)
+v1.1 - 2/1/2017 (cross-browser fix)
