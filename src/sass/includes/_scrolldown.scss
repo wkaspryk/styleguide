@@ -4,7 +4,9 @@
   position: absolute;
   left: calc(50% - 27px);
   opacity: 0;
-  z-index:-1; 
+  z-index:-1;
+  cursor: pointer;
+
   .circle {
     opacity: .05;
     width: 40px;
@@ -30,6 +32,8 @@
       height: 8px;
       margin: 13px 17px;
       position: absolute;
+      top: 0;
+      left: 0;
       transform: rotate(135deg);
       width: 8px;
       animation-name: arrow;
