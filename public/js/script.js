@@ -1,7 +1,7 @@
 // Image 3D Hover Effects
 $(document).ready(function(){
-  $(".project").hover3d({
-    selector: ".project_card",
+  $(".logo-3d").hover3d({
+    selector: ".logo-3d_card",
     sensitivity: 100,
     shine: false,
     // perspective: 1600,
